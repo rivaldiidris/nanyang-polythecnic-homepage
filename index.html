@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+    
+    <title>Nanyang Polythecnic</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="hamburger-icon">
+                    <a onclick="myFunction()">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+    
+                <a class="brand-logo" href="#">
+                    <img src="assets/images/NYP-Logo.png" alt="">
+                </a>
+            
+                <ul>
+                    <li><a href="">JOINING NYP</a></li>
+                    <li><a href="">PARENT</a></li>
+                    <li><a href="">MEDIA</a></li>
+                    <li><a href="">INDUSTRY & PARTNER</a></li>
+                    <li><a href="">ALUMNI</a></li>
+                    <li><a href="">MY NYP</a></li>
+                    <li><a href=""><i class="fas fa-search"></i></a></li>
+                    <li><a><i class="fas fa-chevron-down"></i></a></li>
+                </ul>
+            </div>            
+        </nav>
+
+          <div id="hamburgerMenu">
+              <a href="">JOINING NYP</a>
+              <a href="">PARENT</a>
+              <a href="">MEDIA</a>
+              <a href="">INDUSTRY & PARTNER</a>
+              <a href="">ALUMNI</a>
+              <a href="">MY NYP</a>
+              <a href="">COURSES & SCHOOLS</a>
+              <a href="">ADMISSIONS</a>
+              <a href="">ABOUT NYP</a>
+              <a href="">FIND US</a>
+          </div>
+
+          <div class="menu">
+              <div class="container">
+                <ul>
+                    <div class="link">    
+                        <li><a href="">COURSES & SCHOOL</a></li>
+                        <li><a href="">ADMISSIONS</a></li>
+                        <li><a href="">ABOUT NYP</a></li>
+                        <li><a href="">FIND US</a></li>
+                    </div>
+                    <button class="dropdown-btn">
+                        <a><i class="fas fa-chevron-down"></i></a>
+                    </button>
+                </ul>    
+              </div>
+          </div>
+
+          <div class="banner">
+            <div class="services">
+    
+                <div class="title">
+                    <a>How can we help you?</a>
+                    <a><i class="fas fa-search"></i></a>
+                </div>
+    
+                <div class="service-tabs">
+                    <div class="tab">
+                        <button class="servicelinks" onclick="openTab(event, 'first')">
+                            <img src="assets/images/icon/icon1.png" alt="">
+                            <a>Find a Course</a>
+                        </button>
+                        <button class="servicelinks" onclick="openTab(event, 'second')">
+                            <img src="assets/images/icon/icon2.png" alt="">
+                            <a>What course are you eligible for ?</a>
+                        </button>
+                        <button class="servicelinks" onclick="openTab(event, 'third')">
+                            <img src="assets/images/icon/icon3.png" alt="">
+                            <a>Course enrolment</a>
+                        </button>
+                        <button class="servicelinks" onclick="openTab(event, 'fourth')">
+                            <img src="assets/images/icon/icon4.png" alt="">
+                            <a>Apply NYP scholarship</a>
+                        </button>
+                        <!-- <button class="servicelinks" onclick="openTab(event, 'fifth')">
+                            <img src="assets/images/icon/icon5.png" alt="">
+                            <a>Courses A - Z</a>
+                        </button> -->
+                      </div>
+                      
+                      <div id="first" class="servicecontent">
+                        <h2>Find a course</h2>
+                        <form action="" id="form1">
+                            <div class="search">
+                                <input class="form-control" type="text" placeholder="Search by courses or programmes ...">
+                                <a>or</a>
+                            </div>
+                            <div class="level-group">
+                                <select>
+                                    <option>Beginner</option>
+                                    <option>Intermediate</option>
+                                    <option>Advanced</option>
+                                  </select>
+                                  <a>or</a>
+                                  <select>
+                                    <option>Full-Time Courses</option>
+                                    <option>Part-Time Courses</option>
+                                  </select>
+                            </div>
+                            <a href="">View all <i class="fas fa-chevron-right"></i></a>
+                            <button class="go-btn" type="submit">GO</button>
+                        </form>
+                      </div>
+                      
+                      <div id="second" class="servicecontent">
+                        <h2>What course are you eligible for you?</h2>
+                        <form action="" id="form2">
+                            <select>
+                                <option>English</option>
+                            </select>
+                            <select>
+                                <option>Math</option>
+                            </select>
+                            <select>
+                                <option>Science</option>
+                            </select>
+                            <select>
+                                <option>Humanities</option>
+                            </select>
+                            <div class="input-range">
+                                <a href="">1</a>
+                                <input type="range" id="vol" name="vol" min="1" max="9">
+                                <a href="">9</a>
+                            </div>
+                            <div class="input-range">
+                                <a href="">1</a>
+                                <input type="range" id="vol" name="vol" min="1" max="9">
+                                <a href="">9</a>
+                            </div>
+                            <div class="input-range">
+                                <a href="">1</a>
+                                <input type="range" id="vol" name="vol" min="1" max="9">
+                                <a href="">9</a>
+                            </div>
+                            <div class="input-range">
+                                <a href="">1</a>
+                                <input type="range" id="vol" name="vol" min="1" max="9">
+                                <a href="">9</a>
+                            </div>
+                            <button class="next-btn" type="submit">Next<i class="fas fa-chevron-right"></i></button>
+                        </form>
+                      </div>
+                      
+                      <div id="third" class="servicecontent">
+                        <h2>Course Enrollment</h2>
+                        <h3>Parents’ Informantion</h3>
+                        <form action="" id="form3">
+                            <input type="text" placeholder="Name*" required>
+                            <input type="text" placeholder="NRIC/BC/Passport Number*" required>
+                            <input type="text" placeholder="Nationality*" required>
+                            <select name="gender" id="gender" required>
+                                <option value="" disabled selected hidden>Gender*</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                            <input type="text" placeholder="Contact*" required>
+                            <input type="text" placeholder="Email*" required>
+                            <button class="next-btn" type="submit">Next<i class="fas fa-chevron-right"></i></button>
+                        </form>
+                      </div>
+    
+                      <div id="fourth" class="servicecontent">
+                        <h2>Apply NYP scholarship</h2>
+                        <form action="" id="form4">
+                            <input type="text" placeholder="NRIC/Passport Number*" required>
+                            <input type="text" placeholder="Name*" required>
+                            <select name="nationality" id="nationality" required>
+                                <option value="" disabled selected hidden>Nationality*</option>
+                                <option>Indonesia</option>
+                                <option>Singapore</option>
+                            </select>
+                            <input type="text" placeholder="Declaration Slip No*" required>
+                            <input type="text" placeholder="Contact*" required>
+                            <input type="text" placeholder="Email*" required>
+                            <button class="next-btn" type="submit">Next<i class="fas fa-chevron-right"></i></button>
+                        </form>
+                      </div>
+    
+                      <div id="fifth" class="servicecontent">
+                            <h2>Course A - Z</h2>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+                                </div>
+                                <a>or</a>
+                            </div>
+                            <div class="search-index">
+                                <h5>Show Items Starting With:</h5>
+                                <div class="index">
+                                <a href="">*</a>
+                                <a href="">A</a>
+                                <a href="">B</a>
+                                <a href="">C</a>
+                                <a href="">D</a>
+                                <a href="">E</a>
+                                <a href="">F</a>
+                                <a href="">G</a>
+                                <a href="">H</a>
+                                <a href="">I</a>
+                                <a href="">J</a>
+                                <a href="">K</a>
+                                <a href="">L</a>
+                                <a href="">M</a>
+                                </div>
+                                <div class="index">
+                                <a href="">N</a>
+                                <a href="">O</a>
+                                <a href="">P</a>
+                                <a href="">Q</a>
+                                <a href="">R</a>
+                                <a href="">S</a>
+                                <a href="">T</a>
+                                <a href="">U</a>
+                                <a href="">V</a>
+                                <a href="">W</a>
+                                <a href="">X</a>
+                                <a href="">Y</a>
+                                <a href="">Z</a>
+                                </div>
+                            </div>
+                            <a href="" class="viewall">View all <i class="fas fa-chevron-right"></i></a>
+                            <button class="go-btn" type="submit">GO</button>
+                      </div>
+                </div>
+    
+            </div>
+            <div class="scrolldown-btn">
+                <button onclick="location.href='#newsTab'">
+                    <a><i class="fas fa-chevron-down"></i></a>
+                </button>
+            </div>
+          </div>
+    </header>
+    
+
+    <div class="tabs container" id="newsTab">
+        <div class="tabs-title">
+            <a>WHAT'S HAPPENING @ NYP</a>
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="featured-tab" data-toggle="tab" href="#featured" role="tab" aria-controls="featured" aria-selected="true">FEATURED</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">NEWS & EVENTS</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">PUBLICATION</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="classroom-tab" data-toggle="tab" href="#classroom" role="tab" aria-controls="classroom" aria-selected="false">BEYOND CLASSROOM</a>
+            </li>
+            <!-- <div class="view">
+                <li class="nav-item" id="grid" role="presentation">
+                    <a class="nav-link"><i class="fas fa-th-large"></i></a>
+                  </li>
+                  <li class="nav-item" id="list" role="presentation" style="justify-self: flex-end;">
+                    <a class="nav-link"><i class="fas fa-bars"></i></a>
+                  </li>
+            </div> -->
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="featured" role="tabpanel" aria-labelledby="featured-tab">
+
+                <div class="news-card">
+                    <div class="image"></div>
+                    <div class="date">23 May 2015</div>
+                    <div class="headline">
+                        NYP Wins 6 Awards at Tan Kah KeeYoung Inventors' Award 2015
+                    </div>
+                    <div class="description"></div>
+                </div>
+
+                <div class="news-card">
+                    <div class="image"></div>
+                    <div class="date">23 May 2015</div>
+                    <div class="headline"> Interactive & Digital Media</div>
+                    <div class="description">
+                        Then there were the three out of five animations that were selected to represent Singapore at the 15th TBS...
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="image"></div>
+                    <div class="date">23 May 2015</div>
+                    <div class="headline">Annual Report 2014</div>
+                    <div class="description"></div>
+                </div>
+
+                <div class="news-card">
+                    <div class="image"></div>
+                    <div class="date">23 May 2015</div>
+                    <div class="headline">Leadership & Personal Development</div>
+                    <div class="description">
+                        Taiwan Trekking Expedition
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">,,,</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            <div class="tab-pane fade" id="classroom" role="tabpanel" aria-labelledby="classroom-tab">...</div>
+          </div>
+          
+    </div>
+
+    <div class="social-media">
+        <div class="container">
+            <div class="social-media-item">
+                <div class="social-media-title">
+                    <i class="fab fa-facebook-square"></i>
+                    <a>Join Us @ <b>Facebook</b></a>
+                </div>
+                <div class="content">
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v10.0" nonce="rMCmSQGD"></script>
+                    <div class="fb-page" data-href="https://www.facebook.com/nanyangpoly" data-tabs="timeline" data-width="500px" data-height="" data-lazy="lazy" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nanyangpoly" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nanyangpoly">Nanyang Polytechnic</a></blockquote></div>
+                </div>
+            </div>
+    
+            <div class="social-media-item">
+                <div class="social-media-title">
+                    <i class="fab fa-youtube"></i>
+                    <a>Watch Us @ <b>Youtube</b></a>
+                </div>
+                <div class="content">
+                    <div class="owl-carousel owl-theme" id="video">
+                        <div class="item">
+                            <iframe src="https://www.youtube.com/embed/PLrEcB9BuRA" title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                            <iframe src="https://www.youtube.com/embed/TbmUOgcTfz4" title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                            <iframe src="https://www.youtube.com/embed/KRDyIb9n3l0" title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                            <iframe src="https://www.youtube.com/embed/RmuYqGwCXIM" title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                            <iframe src="https://www.youtube.com/embed/jg1lcr6DeB0" title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="social-media-item">
+                <div class="social-media-title">
+                    <i class="fab fa-twitter-square"></i>
+                    <a>Tweet Us @ <b>Twitter</b></a>
+                    <!-- <div class="button">
+                        <a href="https://twitter.com/nyptweets?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @nyptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div> -->
+                </div>
+                <div class="content">
+                    <a class="twitter-timeline" loading="lazy" href="https://twitter.com/nyptweets?ref_src=twsrc%5Etfw">Tweets by nyptweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer1">
+                <div class="footer1-content">
+                    <ul>HOME</ul>
+                    <ul>
+                        ABOUT NYP
+                        <li><a href="">Mission</a></li>
+                        <li><a href="">Board of Trustees</a></li>
+                        <li><a href="">Director</a></li>
+                        <li><a href="">Deputy Director</a></li>
+                        <li><a href="">Research</a></li>
+                        <li><a href="">Key Non-F and Financial Information</a></li>
+                        <li><a href="">Annual Report</a></li>
+                    </ul>
+                    <ul>
+                        SCHOOLS
+                        <li><a href="">School of Engineering</a></li>
+                        <li><a href="">School of Information Technology</a></li>
+                        <li><a href="">School of Design</a></li>
+                        <li><a href="">School of Business Management</a></li>
+                        <li><a href="">School of Health Sciences</a></li>
+                        <li><a href="">School of Chemical & Life Sciences</a></li>
+                        <li><a href="">School of Interactive & Digital Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer1-content">
+                    <ul>
+                        COURSES
+                        <li><a href="">Full-Time Diploma</a></li>
+                        <li><a href="">Part-Time and Continuing</a></li>
+                        <li><a href="">Education Courses</a></li>
+                    </ul>
+                    <ul>
+                        CONTINUING EDUCATION
+                        <li><a href="">Professional Development Centre</a></li>
+                        <li><a href="">Singapore Institute of Retail Studies (SIRS)</a></li>
+                        <li><a href="">The Asian Culinary Institute (ACI) of Singapore</a></li>
+                    </ul>
+                    <ul>
+                        INDUSTRY SERVICES
+                        <li><a href="">Professional Engineering</a></li>
+                        <li><a href="">Information Technology</a></li>
+                        <li><a href="">Design</a></li>
+                        <li><a href="">Business Management</a></li>
+                        <li><a href="">Interactive & Digital Media</a></li>
+                        <li><a href="">Industry Communities</a></li>
+                        <li><a href="">Technology Innovation & Commercialisation</a></li>
+                        <li><a href="">Industry Schemes</a></li>
+                    </ul>
+                </div>
+                <div class="footer1-content">
+                    <div class="footer-logo">
+                        <img src="assets/images/NYP-Logo-white.png" alt="">
+                    </div>
+                    <div class="location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6611865763484!2d103.84676001393473!3d1.379949998993563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16eb64b0249d%3A0xe5f10ff680eed942!2sNanyang%20Polytechnic!5e0!3m2!1sen!2sid!4v1620052833971!5m2!1sen!2sid" width="" height="" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="address">
+                        Nanyang Polytechnic, 180 Ang Mo Kio Avenue 8 Singapore 569830
+                    </div>
+                    <form action="" id="subscribe">
+                        <a>SUBSCRIBE NOW!</a>
+                        <input class="form-control" type="text"  aria-label="Subscribe">
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div class="container">
+                <div class="content">
+                    <div class="policy">
+                        <ul>
+                            <li><a href="">PRIVACY POLICY</a></li>
+                            <hr>
+                            <li><a href="">COPYRIGHT AND DISCLAIMER</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        All Rights Reserved © 2015 Nanyang Polytechnic, Singapore.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- BUILT YOUR PAGES HERE -->
+
+
+<!--[if lte IE 9]><script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script><![endif]-->
+<!--[if !IE]> --><script src="assets/plugins/jquery/jquery-2.2.4.min.js"></script><!-- <![endif]-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="assets/js/fx-utils.js"></script>
+<script src="assets/js/app.js"></script>
+
+<!-- owl carousel -->
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+
+
+<script src="https://kit.fontawesome.com/c8a786b468.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
